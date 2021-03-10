@@ -1,5 +1,7 @@
 package com.cg.loginapp.entity;
-
+/**
+ * @author Neelambari k
+ */
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -8,7 +10,6 @@ import javax.persistence.Table;
 
 import com.cg.loginapp.idclass.UserId;
 
-//import com.cg.annotation;
 @Entity
 @Table(name="users")
 @IdClass(UserId.class)

@@ -4,7 +4,23 @@ import java.io.Serializable;
 
 public class UserId implements Serializable {
     private String emailId;
-    private String userType;
+    public String getEmailId() {
+		return emailId;
+	}
+
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+
+	public String getUserType() {
+		return userType;
+	}
+
+	public void setUserType(String userType) {
+		this.userType = userType;
+	}
+
+	private String userType;
 
     public UserId()
     {
